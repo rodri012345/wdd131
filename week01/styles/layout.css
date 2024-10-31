@@ -9,7 +9,7 @@
 .head{
     background-color: rgb(69, 68, 68);
     color: aliceblue;
-    margin: none;
+    margin: 0;
     padding: 4rem;
 }
 
@@ -24,6 +24,10 @@ ul{
     padding: 2.5rem;
     list-style: none;
     font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .content{
