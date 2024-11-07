@@ -1,0 +1,110 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.head{
+    margin: 0;
+    
+}
+
+.head h1{
+    background: #174E70;
+    color: aliceblue;
+    padding: 1.5rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bar{
+    background: #333333;
+    padding: 1.5rem;
+    margin: 0;
+    
+}
+
+.bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bar li a{
+    color: aliceblue; 
+    font-size: 20px;  
+    text-decoration: none;
+}
+.bar li a:hover{
+    color: #174E70;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}
+
+section h2{
+    color: aliceblue;
+}
+
+.title{
+    background: #174E70;
+    padding: 10px;
+    border-radius: 15px 15px 0 0; 
+    text-align: center;
+}
+
+.left{
+    grid-column: 1;
+    margin: 10px;
+    border: 1px solid  #333333;
+    border-radius: 15px;
+}
+
+.right{
+    grid-column: 2;
+    margin: 10px;
+    border: 1px solid  #333333;
+    border-radius: 15px;
+}
+
+.paragraph{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+}
+
+.flag{
+    justify-self: center;
+}
+
+.flag p{
+    font-family:cursive;
+    color: #333333;
+}
+
+.left h3{
+    justify-self: center;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 70%;
+    border-bottom: 1px solid #333333;
+    margin: 30px;
+}
+
+.paragraph-2{
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+}
