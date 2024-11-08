@@ -8,6 +8,10 @@
     
 }
 
+.highlight{
+    color: yellow;
+}
+
 .head h1{
     background: #174E70;
     color: aliceblue;
@@ -89,7 +93,13 @@ img{
 
 .flag p{
     font-family:cursive;
+    text-align: center;
     color: #333333;
+}
+
+.flag img{
+    width: 250px;
+    height: 200px;
 }
 
 .left h3{
@@ -107,4 +117,36 @@ img{
     display: grid;
     grid-template-columns: 30% 70%;
     justify-content: center;
+}
+
+.right{
+    position: relative;
+}
+
+.right nav {
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+.right nav li{
+    padding: 5px;
+}
+
+footer{
+    background: #174E70;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+footer p{
+    color: aliceblue;
+    justify-self: center;
+}
+
+#last-modified{
+    color: yellow;
+    margin-top: 10px;
 }
