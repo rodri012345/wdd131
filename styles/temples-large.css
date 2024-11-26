@@ -1,0 +1,36 @@
+/* temples-large.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+main h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+main{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 2rem;
+}
