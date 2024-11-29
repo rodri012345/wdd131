@@ -1,4 +1,3 @@
-// Menú hamburguesa
 const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('nav');
 
@@ -13,7 +12,6 @@ hamburger.addEventListener('click', () => {
     }
 });
 
-// Año actual y última modificación
 const yearSpan = document.getElementById('year');
 const lastModifiedSpan = document.getElementById('lastModified');
 
