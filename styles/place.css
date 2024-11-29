@@ -1,10 +1,15 @@
+:root{
+  --yellow: #FFCD00;
+  --red:#C8102E;
+  --blue:#003087;
+}
 * {
     font-family: "Open Sans", sans-serif;
     margin: 0;
 }
 
 header{
-    background: #FFCD00;
+    background: var(--yellow);
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -17,24 +22,24 @@ header h1{
 
 .yellow{
   padding: 10px;
-  background:#FFCD00;
+  background:var(--yellow);
   margin: 0;
 }
 
 .blue{
     padding: 10px;
-    background:#003087;
+    background:var(--blue);
     margin: 0;
 }
 .red{
   padding: 10px;
-  background:#C8102E;
+  background:var(--red);
   margin: 0;
 }
 picture{
     margin: 0;
     padding: 0;
-    background:#FFCD00 ;
+    background:var(--yellow);
 }
 
 .hero img{
@@ -74,7 +79,7 @@ picture{
   footer {
     text-align: center;
     padding: 1rem;
-    background: #C8102E;
+    background: var(--red);
     color: #fff;
 }
   
@@ -89,7 +94,7 @@ picture{
     }
 
     .box h2{
-      background-color: #003087;
+      background-color: var(--blue);
       padding: 1rem;
       text-align: left;
       width: 50%;
