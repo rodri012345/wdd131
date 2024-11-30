@@ -21,10 +21,6 @@ header h1 {
   color: aliceblue;
 }
 
-#cartagena{
-  display: none;
-}
-
 .yellow {
   padding: 10px;
   background: var(--yellow);
@@ -82,7 +78,7 @@ picture {
   color: #333;
 }
 
-.weather-icon{
+.weather-icon {
   display: none;
 }
 
@@ -100,9 +96,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  
-  #cartagena{
-    display: inline;
+
+  header h1::after {
+    content: " - CARTAGENA";
   }
 
   .hero {
@@ -150,12 +146,11 @@ footer {
   #right img {
     display: none;
   }
-  
-  #right h2::after{
+
+  #right h2::after {
     content: "⛅";
     display: inline-block;
     margin-left: 0.5rem;
     font-size: 1.2rem;
   }
 }
-
