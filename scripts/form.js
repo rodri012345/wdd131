@@ -6,7 +6,7 @@ const products = [
     { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
   ];
   
-  // Populate product select options
+  
   const productSelect = document.getElementById('product');
   products.forEach(product => {
     const option = document.createElement('option');
@@ -15,19 +15,21 @@ const products = [
     productSelect.appendChild(option);
   });
   
-  // Populate rating radio buttons (1 to 5 stars)
-  const ratingDiv = document.getElementById('rating');
-  for (let i = 1; i <= 5; i++) {
-    const label = document.createElement('label');
-    const input = document.createElement('input');
-    input.type = 'radio';
-    input.name = 'rating';
-    input.value = i;
-    input.required = true;
-    label.textContent = `${'☆'.repeat(i)} ${i}`;
-    label.appendChild(input);
-    ratingDiv.appendChild(label);
-  }
+const ratingDiv = document.getElementById('rating');
+for (let i = 1; i <= 5; i++) {
+  const label = document.createElement('label');
+  const input = document.createElement('input');
+  input.type = 'radio';
+  input.id = `rating-${i}`; 
+  input.name = 'rating';
+  input.value = i;
+  input.required = true;
+  label.textContent = `${'☆'.repeat(i)} ${i}`;
+  label.setAttribute('for', `rating-${i}`); 
+  label.appendChild(input);
+  ratingDiv.appendChild(label);
+}
+
   
 
   const usefulFeaturesDiv = document.createElement('div');
