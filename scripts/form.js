@@ -29,7 +29,7 @@ const products = [
     ratingDiv.appendChild(label);
   }
   
-  // Populate useful features checkboxes
+
   const usefulFeaturesDiv = document.createElement('div');
   const features = ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'];
   features.forEach(feature => {
@@ -44,7 +44,7 @@ const products = [
   });
   document.querySelector('form').appendChild(usefulFeaturesDiv);
   
-  // Review count using localStorage
+  
   if (!localStorage.getItem('reviewCount')) {
     localStorage.setItem('reviewCount', 0);
   }
