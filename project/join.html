@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rodrigo S. Quena Calizaya">
+    <meta name="description" content="This is a page is about Colombia. It has important data about his population, area, languages and weather. It 
+        also has amazing pictures about Colombia which describes all his beautiful places  ">
+    <title>The Road Far Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/firtpagestyle.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1>Motorcycle Club City </h1>
+            <img src="images/motocycleLogo.png" alt="">
+            <nav class="bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="aventures.html">Our Aventures</a></li>
+                    <li><a href="events.html">Up Coming Events</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="join-us">
+        <h2>Join Our Club</h2>
+        <p>Become a member of the Motorcycle Club City and enjoy exclusive adventures, events, and rides!</p>
+
+        <form id="join-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <span class="error-msg" id="name-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <span class="error-msg" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <span class="error-msg" id="phone-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Why do you want to join us?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Share your thoughts..." required></textarea>
+            </div>
+            <button type="submit" id="submit-btn">Join Now</button>
+        </form>
+
+        <div id="success-message" class="hidden">
+            <p>🎉 Thank you for joining us! We'll contact you soon.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p><span id="copyright"></span> 💻| Rodrigo Shinechi Quena Calizaya|💻 Cochabamba, Bolivia</p>
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
