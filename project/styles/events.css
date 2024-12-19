@@ -57,6 +57,12 @@ body {
     transition: background 0.3s;
 }
 
+.event img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
 .event button:hover {
     background-color: #e5533d;
 }

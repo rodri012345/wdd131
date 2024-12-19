@@ -21,7 +21,6 @@ nextBtn.addEventListener('click', () => {
     showImage(currentIndex);
 });
 
-// Event Registration Alert
 const registerButtons = document.querySelectorAll('.register-btn');
 
 registerButtons.forEach((btn) => {
