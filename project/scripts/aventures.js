@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const loadMoreBtn = document.getElementById("load-more");
-    const extraAdventures = document.getElementById("extra-adventures");
+    const showMoreBtn = document.getElementById("load-more");
+    const adventureImages = document.querySelectorAll(".adventure.hidden");
 
     loadMoreBtn.addEventListener("click", function () {
+        extraAdventures.classList.toggle("hidden");     
         if (extraAdventures.classList.contains("hidden")) {
-            extraAdventures.classList.remove("hidden");
-            loadMoreBtn.textContent = "Show Less Adventures";
-        } else {
-            extraAdventures.classList.add("hidden");
             loadMoreBtn.textContent = "Load More Adventures";
+        } else {
+            loadMoreBtn.textContent = "Show Less Adventures";
         }
     });
 });

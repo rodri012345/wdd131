@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1E1E1E;
-    color: white;
-  }
-  
-  h1, h2 {
-    font-family: Montserrat, sans-serif;
-    color: #FF5733;
-  }
-  
-  a {
-    color: #FF5733;
-  }
-  
-  button {
-    background-color: #FF5733;
-    color: white;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #1E1E1E;
+  color: white;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #FF5733;
+}
+
+a {
+  color: #FF5733;
+}
+
+button {
+  background-color: #FF5733;
+  color: white;
+}
